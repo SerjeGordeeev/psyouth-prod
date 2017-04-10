@@ -1,0 +1,477 @@
+{
+  "users": [
+	{
+	  "hash": "27b76169d5643f0a42e1ed321fedd9c6c34605156829ee363b6b9881a75b22d3148a577f558132e3e9cc9a0f10b3f6e6515d85406ef1285cf0fee7926aa874cf",
+	  "salt": "2b15737e06dcd145c3b9c95434dbc09b",
+	  "group": null,
+	  "role": "admin",
+	  "openPassword": "dzhHOXlOwn5u",
+	  "organisation": null,
+	  "login": "admin",
+	  "email": "serje@fff.ru",
+	  "name": "Сергей Гордеев",
+	  "_id": "58038765be13f22a1f1b6168",
+	  "__v": 0,
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "580391b83e008f2e3609b983",
+	  "email": "sabaca@saxxx.ru",
+	  "group": "5803c25a2ca6e212c59ff549",
+	  "hash": "5fa8997caf5d7d0a52f1041b8faac3049f6fb1bd7fc9ec6b90559990f11465f80235c408140a53122036042c65235aba3ac27aea56452a31f45394660ba4ad0b",
+	  "login": "vasdas111",
+	  "name": "Анатолий Федоров",
+	  "openPassword": "uBz7ws9uOnXt",
+	  "organisation": "580391793e008f2e3609b982",
+	  "role": "psycholog",
+	  "salt": "64b340b910597c47bbabcb99317683fe",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803957183c8fa30d3efc983",
+	  "email": "aaa@aa.ru",
+	  "group": null,
+	  "hash": "7a420ad9e6943d2ef397455b6cdceadc299c206e07072fd4ee8119bbf8b980ab3b80bfe606d26a2ea17446bf58fc05529f564da07179a3ff3c281c3785869628",
+	  "login": "aaaaaaaa",
+	  "name": "Александр Пистолетов",
+	  "openPassword": "JSNUziwHeaLx",
+	  "organisation": "580390f03e008f2e3609b981",
+	  "role": "psycholog",
+	  "salt": "b63025ce849bdec0d3badbaa07e4446e",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c1dc2ca6e212c59ff542",
+	  "group": null,
+	  "login": "wvKfi4Z1bS2y",
+	  "name": "Иванов Андрей",
+	  "organisation": "580387aebe13f22a1f1b6169",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c1e32ca6e212c59ff543",
+	  "group": "58078c74d30483095a2d00d6",
+	  "login": "wTQUu9Kc5HmU",
+	  "name": "Котин Андрей",
+	  "organisation": "580387aebe13f22a1f1b6169",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c1ea2ca6e212c59ff544",
+	  "group": "58078c74d30483095a2d00d6",
+	  "login": "NWL5gpF9Q2Yq",
+	  "name": "Валинуров Камиль",
+	  "organisation": "580387aebe13f22a1f1b6169",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c1fd2ca6e212c59ff546",
+	  "group": "58078c74d30483095a2d00d6",
+	  "login": "GnhGUNXFmKP6",
+	  "name": "Федорин Некита",
+	  "organisation": "580387aebe13f22a1f1b6169",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803cf192ca6e212c59ff54f",
+	  "group": "58078c74d30483095a2d00d6",
+	  "login": "VVkynf_MXIM_",
+	  "name": "Емельянов Ярослав",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803ced12ca6e212c59ff54c",
+	  "group": "5803c25a2ca6e212c59ff549",
+	  "login": "ps3CuhaZM3WV",
+	  "name": "Кузьмин Александр",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "_id": "5843fced79c52616fbb880f5",
+	  "login": "zb8Ci6iyFqDp",
+	  "role": "student",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "name": "Школьник 3",
+	  "__v": 0,
+	  "properties": []
+	},
+	{
+	  "_id": "5843fced79c52616fbb880f3",
+	  "login": "hqKGqY4l3ztu",
+	  "role": "student",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "name": "Школьник 1",
+	  "__v": 0,
+	  "properties": []
+	},
+	{
+	  "_id": "580648f5104a621400fbb9e3",
+	  "__v": 0,
+	  "login": "kbLV7UHJ2Hcd",
+	  "group": "580392c13e008f2e3609b984",
+	  "name": "Елена Владимирова",
+	  "organisation": "5805d71d5602072cd53c8107",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "_id": "5806490a104a621400fbb9e4",
+	  "__v": 0,
+	  "login": "scIFdwjCoI7P",
+	  "name": "Вячеслав Романов",
+	  "group": "580392c13e008f2e3609b984",
+	  "organisation": "5805d71d5602072cd53c8107",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803ceed2ca6e212c59ff54d",
+	  "group": "5803c25a2ca6e212c59ff549",
+	  "login": "z66xzUKUy6A2",
+	  "name": "Мамонтов Денис",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803cef52ca6e212c59ff54e",
+	  "group": "5803c25a2ca6e212c59ff549",
+	  "login": "Com9twNjkIQC",
+	  "name": "Мотков Максим",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5805d8595602072cd53c810b",
+	  "group": "5803c25a2ca6e212c59ff549",
+	  "login": "2Tj9WBTEb6BL",
+	  "name": "Виктор Павлов",
+	  "organisation": "5805d71d5602072cd53c8107",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "580648ed104a621400fbb9e2",
+	  "group": "5803c25a2ca6e212c59ff549",
+	  "login": "3Sn9ZV7bc4ek",
+	  "name": "Ольга Николаева",
+	  "organisation": "5805d71d5602072cd53c8107",
+	  "role": "student",
+	  "properties": []
+	},
+	{
+	  "__v": 2,
+	  "_id": "5803c1f42ca6e212c59ff545",
+	  "group": null,
+	  "login": "wAsMjmQVWrXq",
+	  "name": "Беляев Александр",
+	  "organisation": "580387aebe13f22a1f1b6169",
+	  "role": "student",
+	  "properties": [
+		{
+		  "_id": "5806495a104a621400fbb9e5",
+		  "value": ""
+		},
+		{
+		  "_id": "58064981104a621400fbb9e6",
+		  "value": null
+		},
+		{
+		  "_id": "58064a35104a621400fbb9e7",
+		  "value": null
+		}
+	  ]
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803955483c8fa30d3efc982",
+	  "email": "s@s.ru",
+	  "group": null,
+	  "hash": "36033785f35e72edd3312b239b5025e8d6151c2a19bc5543129461641935f1f156fb021e7e58dcedefdc1796232989ca6743337b337571117eb1cf6113565790",
+	  "login": "vaslasta",
+	  "name": "Петр Алексеев",
+	  "openPassword": "g9AlO6gnX7D7",
+	  "organisation": "580391793e008f2e3609b982",
+	  "role": "psycholog",
+	  "salt": "f34ceb4d8667b888cf28d528c2424647",
+	  "properties": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803952583c8fa30d3efc981",
+	  "email": "samurai41@black.he",
+	  "group": "58078c74d30483095a2d00d6",
+	  "hash": "d025873e65a86459f443a27226548b3c0593fddf6db635f24e21d64ce16c2524729564a18cd1f2f77947b4a4f9a89d813d415bdf70b53577f06eabbbee1e0bf9",
+	  "login": "hero1488",
+	  "name": "Алексей Петров",
+	  "openPassword": "jAMpFLgYPRbG",
+	  "organisation": "580390f03e008f2e3609b981",
+	  "role": "psycholog",
+	  "salt": "a81d234c2bf7b61f08d66751bdd95d21",
+	  "properties": []
+	},
+	{
+	  "_id": "5843fced79c52616fbb880f4",
+	  "login": "FpqUfAt15fod",
+	  "role": "student",
+	  "organisation": "5803c2852ca6e212c59ff54a",
+	  "name": "Школьник 2",
+	  "__v": 0,
+	  "group": "580392c13e008f2e3609b984",
+	  "properties": []
+	},
+	{
+	  "_id": "5845b5b74aea6310a44ffd44",
+	  "hash": "f4d421c3acb6edeff5eb071d74bff48f64377033a37a670df4f77bec2549295df2370f6582700895a4210c686175f617c7054faf3f3ffd7bdc1f21d59cfac84b",
+	  "salt": "535b162a0961f94a6b76edca514a6d9d",
+	  "group": null,
+	  "role": "psycholog",
+	  "openPassword": "AVfyHdqhXV3y",
+	  "organisation": "580390f03e008f2e3609b981",
+	  "login": "jojo111",
+	  "name": "Иван Жожа",
+	  "__v": 0,
+	  "properties": []
+	},
+	{
+	  "_id": "5805d8c9cc222d3009e71dbf",
+	  "__v": 1,
+	  "group": "580392c13e008f2e3609b984",
+	  "login": "frkBePNtcIbD",
+	  "name": "Бильба",
+	  "organisation": "5805d71d5602072cd53c8107",
+	  "role": "student",
+	  "properties": [
+		{
+		  "actuallVal": 150,
+		  "data": [
+			{
+			  "actually": false,
+			  "value": null,
+			  "date": "2016-12-05T20:36:03.392Z"
+			},
+			{
+			  "value": 150,
+			  "date": "2016-12-05T20:36:14.696Z",
+			  "actually": true
+			}
+		  ],
+		  "_id": "5806495a104a621400fbb9e5"
+		},
+		{
+		  "actuallVal": 333,
+		  "data": [
+			{
+			  "actually": false,
+			  "value": null,
+			  "date": "2016-12-05T20:36:03.393Z"
+			},
+			{
+			  "value": 333,
+			  "date": "2016-12-05T20:36:14.696Z",
+			  "actually": true
+			}
+		  ],
+		  "_id": "58064981104a621400fbb9e6"
+		},
+		{
+		  "actuallVal": "12",
+		  "data": [
+			{
+			  "actually": false,
+			  "value": null,
+			  "date": "2016-12-05T20:36:03.394Z"
+			},
+			{
+			  "value": "12",
+			  "date": "2016-12-05T20:36:14.697Z",
+			  "actually": true
+			}
+		  ],
+		  "_id": "58064a35104a621400fbb9e7"
+		}
+	  ]
+	},
+	{
+	  "_id": "5845edd25e3aa03a32d7a336",
+	  "hash": "2346aec5eac0d3cd48f5a85c3ef2f78650be3643699b6da3141c7fdb41ad1e9473b61cd675ca5269d6a0795866c5aea5a92468189e4539e31983b26699f7ac9d",
+	  "salt": "09bf90af3b32f21f4d77d941c61af0fb",
+	  "group": null,
+	  "role": "psycholog",
+	  "openPassword": "7Jjwgg",
+	  "organisation": "580390f03e008f2e3609b981",
+	  "login": "admin17",
+	  "email": "aaa@a.ru",
+	  "name": "Семен Авраамович Пиявский",
+	  "__v": 0,
+	  "properties": []
+	}
+  ],
+  "groups": [
+	{
+	  "_id": "580392c13e008f2e3609b984",
+	  "__v": 0,
+	  "mentor": null,
+	  "name": "Физика",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c24d2ca6e212c59ff548",
+	  "mentor": null,
+	  "name": "Химия",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "58078c74d30483095a2d00d6",
+	  "mentor": "5803952583c8fa30d3efc981",
+	  "name": "Информационные технологии",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c25a2ca6e212c59ff549",
+	  "mentor": "580391b83e008f2e3609b983",
+	  "name": "Математика",
+	  "members": []
+	}
+  ],
+  "organisations": [
+	{
+	  "__v": 0,
+	  "_id": "580387aebe13f22a1f1b6169",
+	  "is_psycho": false,
+	  "name": "СГАСУ",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "580390f03e008f2e3609b981",
+	  "is_psycho": true,
+	  "name": "Ассоцияция психологов",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "580391793e008f2e3609b982",
+	  "is_psycho": true,
+	  "name": "Организация психологов",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c2852ca6e212c59ff54a",
+	  "is_psycho": false,
+	  "name": "СамГМУ",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5805d71d5602072cd53c8107",
+	  "is_psycho": false,
+	  "name": "СГАУ",
+	  "members": []
+	},
+	{
+	  "is_psycho": false,
+	  "name": "ПГС",
+	  "_id": "58086a15778f0718c6396737",
+	  "__v": 0,
+	  "members": []
+	},
+	{
+	  "is_psycho": false,
+	  "name": "ПГС",
+	  "_id": "580914f567b0401aa5f87f7a",
+	  "__v": 0,
+	  "members": []
+	},
+	{
+	  "is_psycho": false,
+	  "name": "ПГС",
+	  "_id": "5809155667b0401aa5f87f7d",
+	  "__v": 0,
+	  "members": []
+	}
+  ],
+  "props": [
+	{
+	  "__v": 0,
+	  "_id": "580387aebe13f22a1f1b6169",
+	  "is_psycho": false,
+	  "name": "СГАСУ",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "580390f03e008f2e3609b981",
+	  "is_psycho": true,
+	  "name": "Ассоцияция психологов",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "580391793e008f2e3609b982",
+	  "is_psycho": true,
+	  "name": "Организация психологов",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5803c2852ca6e212c59ff54a",
+	  "is_psycho": false,
+	  "name": "СамГМУ",
+	  "members": []
+	},
+	{
+	  "__v": 0,
+	  "_id": "5805d71d5602072cd53c8107",
+	  "is_psycho": false,
+	  "name": "СГАУ",
+	  "members": []
+	},
+	{
+	  "is_psycho": false,
+	  "name": "ПГС",
+	  "_id": "58086a15778f0718c6396737",
+	  "__v": 0,
+	  "members": []
+	},
+	{
+	  "is_psycho": false,
+	  "name": "ПГС",
+	  "_id": "580914f567b0401aa5f87f7a",
+	  "__v": 0,
+	  "members": []
+	},
+	{
+	  "is_psycho": false,
+	  "name": "ПГС",
+	  "_id": "5809155667b0401aa5f87f7d",
+	  "__v": 0,
+	  "members": []
+	}
+  ]
+}

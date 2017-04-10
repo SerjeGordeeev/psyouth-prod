@@ -1,0 +1,113 @@
+@import "variables.scss";
+
+*{
+  font-family: "Roboto";
+  outline: none;
+}
+body, html{
+  overflow: hidden;
+}
+
+h1,h2,h3{
+  font-weight: normal;
+  margin: 0;
+}
+
+a{
+  color: $MAIN_COLOR;
+}
+
+app-workspace{
+  margin-left: $TOGGLE_MENU_OFFSET;
+}
+.main_app_layout{
+  box-sizing: border-box;
+  //background-color: #ECEFF1;
+  background-image: url("/images/background.jpg");
+  //@include backgroundGradient($MAIN_COLOR, #49FFCE);
+  background-size: cover;
+  .app_title{
+    color: #fff;
+    text-shadow: $TEXT_SHADOW;
+    font-size: 2em;
+    margin: 0;    
+    margin-bottom: 3em;
+  }
+}
+
+.md-bordered {
+  border: $MAIN_COLOR 2px solid !important;
+}
+
+.md-active-mode {
+  box-shadow: none !important;
+  background-color: $GREY - 20 !important; 
+}
+
+.border-white{
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.empty{
+  color: rgba(0,0,0,.5) !important;
+}
+
+.light-text{
+  color: $GREY !important;
+}
+
+md-icon{
+  &.white-icon   svg{
+    fill: #fff !important;
+  }
+
+  &.warn-icon   svg{
+    fill: $WARN_COLOR !important;
+  }
+
+  &.grey-icon   svg{
+    fill: $GREY !important;
+  }
+
+  &.accent-icon   svg{
+    fill: $ACCENT_COLOR !important;
+  }
+
+  &.orange-icon svg{
+    fill: $ORANGE !important;
+  }
+  
+
+}
+
+.md-button{
+  &.green{
+    background-color: $GREEN !important;
+  }
+  &.blue{
+    background-color: $BLUE !important;
+  }
+  &.yellow{
+    background-color: $YELLOW !important;
+  }
+  &.orange{
+    background-color: $ORANGE !important;
+  }
+}
+
+md-input-container{
+  margin-bottom: 0 !important;
+}
+.md-button{
+  a{
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}
+.md-button.md-default-theme.md-accent.md-fab,
+.md-button.md-accent.md-fab,
+.md-button.md-default-theme.md-accent.md-raised,
+.md-button.md-accent.md-raised{
+  color: #fff !important;
+}
