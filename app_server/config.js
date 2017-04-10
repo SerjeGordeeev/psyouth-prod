@@ -13,7 +13,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-/*app.use('/',express.static('app_client'))*/
+app.use('/', express.static( __dirname + '/client'))
 
 app.use(passport.initialize())
 app.use('/api', rotesApi)
