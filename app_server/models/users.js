@@ -6,18 +6,23 @@ const moment = require('moment')
 const _ = require("lodash")
 //const MY_SECRET = process.env.SECRET
 
+var changingSubjectSchema =  new mongoose.Schema({
+	type: "String",
+	subjectId: String
+});
+
 var propValueSchema =  new mongoose.Schema({
 	value: mongoose.Schema.Types.Mixed,
 	date: String,
 	time: String,
-	actually: Boolean
+	actually: Boolean,
+	by: changingSubjectSchema
 });
 
 var propsDataSchema =  new mongoose.Schema({
 	id: String,
 	data: {type:[propValueSchema], default: []}
 });
-
 
 var userSchema = new mongoose.Schema({
 	name: { type: String, required: false },

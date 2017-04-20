@@ -11,7 +11,8 @@ module.exports = {
     getList,
     remove,
     add,
-    update
+    update,
+    getOne
 }
 
 function getList(req, res) {
@@ -88,4 +89,13 @@ function update(req, res) {
         .catch(err=>{
             dataError(res,err)
         });
+}
+
+function getOne(req, res) {
+    Prop.findById(req.params.id).exec()
+        .then(test=>{
+            res.status(200);
+            res.json(test);
+        })
+        .catch()
 }

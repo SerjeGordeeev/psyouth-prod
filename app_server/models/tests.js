@@ -16,7 +16,14 @@ var translationSchema = new mongoose.Schema({
 	range: Array,
 	message: String,
 	propValue: Number
-}); 
+});
+
+var passingSchema = new mongoose.Schema({
+	memberId: String,
+	date: String,
+	answers: [mongoose.Schema.Types.Mixed],
+	result: Number
+});
 
 var testSchema = new mongoose.Schema({
     name: {type: String, required: false},
@@ -25,9 +32,9 @@ var testSchema = new mongoose.Schema({
     type: { type:String, default: "own"},
     description: {type: String, required: true},
     adress: {type: String, required: false},
-    name: {type: String, required: false},
     questions: {type: [questionSchema], default: []},
-    translation: {type: [translationSchema], default: []}
+    translation: {type: [translationSchema], default: []},
+	passings: {type:[passingSchema], default: []}
 });
 
 mongoose.model('Test', testSchema)

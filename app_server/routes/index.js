@@ -43,6 +43,7 @@ router.put('/groups/:id', ctrlGroups.update)
 
 //properties
 router.get('/properties', ctrlProps.getList)
+router.get('/properties/:id', ctrlProps.getOne)
 router.post('/properties', ctrlProps.add)
 router.delete('/properties/:id', ctrlProps.remove)
 router.put('/properties/:id', ctrlProps.update)
