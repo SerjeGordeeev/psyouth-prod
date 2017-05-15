@@ -12,7 +12,8 @@ module.exports = {
 	remove,
 	getOne,
 	update,
-	add
+	add,
+	getReport
 }
 
 function getList(req, res) {
@@ -129,4 +130,35 @@ function getOne(req, res) {
 		res.json(group)
 	})
 	.catch()
+}
+
+function getReport(req, res){
+	const query = req.params.query;
+	let = null;
+
+
+	let fields = ["Название","Тип","Кол-во представителей"]
+	let orgsData = null;
+	Promise.all([
+			Group.find({}),
+			User.find({})
+		]).then(resp=>{
+		//console.log(resp)
+		resp.orgs = resp[0]
+		resp.users = resp[1]
+				
+		orgsData = _.map(resp.orgs, org=>{
+			let orgObj = {}
+			orgObj[fields[0]] = org.name;
+			orgObj[fields[1]] = org.is_psycho?"Психологическая":"Учебная";
+			orgObj[fields[2]] =_.filter(resp.users, (user)=>{
+				return user.organisation == org._id
+			}).length;	
+				return orgObj;
+			})
+
+		result = json2csv({ data: orgsData, fields:fields});
+		fs.writeFileSync(__dirname+"/report.csv", result)
+		res.download(__dirname + "/report.csv", "Организации.csv");
+	})
 }

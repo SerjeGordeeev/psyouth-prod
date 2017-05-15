@@ -36,6 +36,7 @@ router.put('/organisations/:id', ctrlOrgs.update)
 
 //groups
 router.get('/groups', ctrlGroups.getList)
+router.get('/groups/report', ctrlGroups.getReport)
 router.get('/groups/:id', ctrlGroups.getOne)
 router.post('/groups', ctrlGroups.add)
 router.delete('/groups/:id', ctrlGroups.remove)

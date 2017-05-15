@@ -19,24 +19,30 @@ module.exports.register = function(req, res) {
   //   return
   // }
 
-  var user = new User()
+  var user = new User();
+  let password;
 
-  _.assign(user,req.body)
+  _.assign(user,req.body);
 
-  let password = generatePassword(6, false)
-  
-  console.log(password)
-  
-/*  user.name = req.body.name
-  user.email = req.body.email
-  user.login = req.body.login
-  user.organisation = req.body.organisation*/
+  if(!user.password){
+    password = generatePassword(6, false);
+    console.log(password);
+  } else {
+    password = user.password;
+  }
 
-  user.openPassword = password
-/*  user.role = 'psycholog'
-  user.group = null*/
 
-  console.log('Registration', user.name, user.login, password)
+
+  /*  user.name = req.body.name
+   user.email = req.body.email
+   user.login = req.body.login
+   user.organisation = req.body.organisation*/
+
+  user.openPassword = password;
+  /*  user.role = 'psycholog'
+   user.group = null*/
+
+  console.log('Registration', user.name, user.login, password);
 
   //sendMail(user.email ,password,user) //посылаем данные для входа
 
