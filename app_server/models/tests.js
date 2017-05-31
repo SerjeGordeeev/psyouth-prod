@@ -34,6 +34,7 @@ var testSchema = new mongoose.Schema({
     adress: {type: String, required: false},
     questions: {type: [questionSchema], default: []},
     translation: {type: [translationSchema], default: []},
+	translationType: {type: String, default: "fixed"}, //["calculate", "fixed"]
 	passings: {type:[passingSchema], default: []}
 });
 
