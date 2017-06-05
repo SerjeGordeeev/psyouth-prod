@@ -1,0 +1,27 @@
+@import "mixins.scss";
+
+$MAIN_COLOR: rgb(64,49,93);//#2196F3;//rgb(63,81,181);
+$WARN_COLOR: rgb(241, 5, 33);
+$ACCENT_COLOR: #5dc260;
+
+$GREEN: #37ca91;
+$YELLOW: #eaa830;
+$BLUE: #4590ff;
+$ORANGE: #FF5722;
+
+$GREY: #999;
+$GREY_L: #eee; //grey light
+
+
+$BOX_SHADOW_N_TOP: 0px 3px 3px 0px rgba(0,0,0,0.75);
+$BOX_SHADOW: 0px 0px 3px 0px rgba(0,0,0,0.75);
+
+
+$TEXT_SHADOW: 1px 1px 3px rgba(0, 0, 0, .5);
+
+$HEADER_HEIGHT:  50px;
+
+$TOGGLE_MENU_WIDTH: 220px;
+$TOGGLE_MENU_OFFSET: 55px;
+
+$SIDE_PADDING: 8px;
